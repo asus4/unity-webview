@@ -70,6 +70,8 @@ public class WebViewPlugin
 			mWebView.setVisibility(View.GONE);
 			mWebView.setFocusable(true);
 			mWebView.setFocusableInTouchMode(true);
+			mWebView.setScrollBarStyle(0);
+			mWebView.setBackgroundColor(0);
 
 			if (layout == null) {
 				layout = new FrameLayout(a);
